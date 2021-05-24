@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pic {
+  position: absolute;
+  margin-left: 42.5%;
+  margin-right: 57.5%;
+  margin-top: 250px;
+  z-index:1000000;
+}
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#081052, #440000);
+    width: 100%;
+    height: 100%;
+}
+#canvas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*filter: blur(10px) contrast(10);*/
+}
+#audio1 {
+    margin: 600px 0 0 80%;
+    display: block;
+    width: 250px;
+    background-color: None;
+    filter: sepia(0%) saturate(100%) grayscale(100%) contrast(100%) hue-rotate(246deg) invert(100%);
+}
+#fileupload {
+    position: absolute;
+    top: 665px;
+    margin-left: 82.5%;
+    color: white;
+    z-index: 100;
+    font-size: 10px;
+}
+
