@@ -7,7 +7,7 @@
   position: absolute;
   margin-left: 42.5%;
   margin-right: 57.5%;
-  margin-top: 250px;
+  margin-top: 19%;
   z-index:1000000;
 }
 #container {
@@ -41,4 +41,3 @@
     z-index: 100;
     font-size: 10px;
 }
-
